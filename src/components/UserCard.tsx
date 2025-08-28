@@ -7,7 +7,7 @@ interface UserProps {
 }
 
 const UserCard = ({ user }: UserProps) => {
-  const { firstName, email, gender, carModel, image, id } = user;
+  const { firstName, email, gender, carModel, image} = user;
 
   // const handleClickById = () => alert("Id: " + id);
 
